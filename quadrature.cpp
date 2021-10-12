@@ -9,6 +9,7 @@ double** SetPoints(int n,double a,double b)
 
     for (int j=0; j<=2*n; j++)
     {
+        
         pointsweights[0][j] = a + h*(double)(j); // Creates array of points in the interval
         if (j == 0 || j == 2*n) // creates weights depending on the value of j
         {
